@@ -1,0 +1,37 @@
+name: the_coffee_house
+description: The coffee house by llg94th
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  bloc: ^8.0.3
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  intl: ^0.17.0
+  retrofit: ^3.0.1+1
+  shared_preferences: any
+  dio: any
+  flutter_services_binding: any
+  thecoffeehouse_api:
+    path: packages/thecoffeehouse_api
+  local_storage_thecoffeehoue_api:
+    path: packages/local_storage_thecoffeehoue_api
+  thecoffeehouse_repository:
+    path: packages/thecoffeehouse_repository
+dev_dependencies:
+  bloc_test: ^9.0.3
+  build_runner: ^2.1.7
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
+  generate: true

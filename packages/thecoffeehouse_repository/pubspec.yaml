@@ -1,0 +1,20 @@
+name: thecoffeehouse_repository
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  dio: any
+  thecoffeehouse_api:
+    path: ../thecoffeehouse_api
+  local_storage_thecoffeehoue_api:
+    path: ../local_storage_thecoffeehoue_api
+
+dev_dependencies:
+  coverage: ^1.1.0
+  mocktail: ^0.2.0
+  test: ^1.19.2
+  very_good_analysis: ^2.4.0
